@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="YT00401-100" id="0" name="QuestionControllerTest" package="com.augmentum.oes.controller" tests="2" time="4.062" timestamp="2014-08-11T15:14:01">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="lib.dir" value="C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows XP" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="cobertura.home" value="C:\cobertura-2.0.3" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_18\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="YT00401-100" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145" />
+
+          <property name="java.runtime.version" value="1.6.0_18-b07" />
+
+          <property name="env.HOMEPATH" value="\Documents and Settings\freddie.wang" />
+
+          <property name="cobertura.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura" />
+
+          <property name="user.name" value="Freddie.Wang" />
+
+          <property name="build.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\bin" />
+
+          <property name="build.test.classes" value="C:\javawork\trunk\src\OnlineExamSystem\build\test\classes" />
+
+          <property name="build.test.report" value="C:\javawork\trunk\src\OnlineExamSystem\build\test\report" />
+
+          <property name="build.war.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\war" />
+
+          <property name="ant.project.name" value="OnlineExamSystem" />
+
+          <property name="java.version" value="1.6.0_18" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 4 Stepping 1, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.CLIENTNAME" value="Console" />
+
+          <property name="env.TEMP" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="test.src.dir" value="C:\javawork\trunk\src\OnlineExamSystem\test" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="test.lib.dir" value="C:\javawork\trunk\src\OnlineExamSystem\lib" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_18\jre" />
+
+          <property name="env.APPDATA" value="C:\Documents and Settings\freddie.wang\Application Data" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="env.CATALINA_HOME" value="C:\apache-tomcat-6.0.18" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\javawork\trunk\src\OnlineExamSystem\build.xml" />
+
+          <property name="os.version" value="5.1" />
+
+          <property name="cobertura.class.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\class" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="16.0-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Documents and Settings\freddie.wang" />
+
+          <property name="web.dir" value="C:\javawork\trunk\src\OnlineExamSystem\WebContent" />
+
+          <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_18" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/scripts/" />
+
+          <property name="user.home" value="C:\Documents and Settings\freddie.wang" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="env.CLASSPATH" value="." />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-ant-1.9.2\bin;C:\Program Files\Java\jdk1.6.0_18\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="1" />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="env.USERDNSDOMAIN" value="YZ.AUGMENTUM.COM.CN" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="cobertura.lib.dir" value="C:\cobertura-2.0.3\lib" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="java.class.path" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\class;C:\javawork\trunk\src\OnlineExamSystem\build\classes;C:\javawork\trunk\src\OnlineExamSystem\build\test\classes;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\aopalliance-1.0.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\aspectjweaver-1.5.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\c3p0-0.9.2.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-codec-1.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-httpclient-3.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-lang-2.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\easymock-3.2.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-all-1.7.6.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-core-lgpl-1.8.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-mapper-lgpl-1.8.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jstl-1.2.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\log4j-1.2.15.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mchange-commons-java-0.2.6.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mybatis-3.2.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mybatis-spring-1.2.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mysql-connector-java-5.0.4-bin.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mysql-connector-java-5.1.25.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\oval-1.81.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\servlet-api-2.4.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-aop-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-aspects-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-beans-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-build-src-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-context-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-context-support-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-core-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-expression-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-instrument-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-instrument-tomcat-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-jdbc-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-jms-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-orm-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-oxm-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-struts-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-test-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-tx-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-web-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-webmvc-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-webmvc-portlet-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\standard-1.0.jar;C:\apache-tomcat-6.0.18\lib\annotations-api.jar;C:\apache-tomcat-6.0.18\lib\catalina-ant.jar;C:\apache-tomcat-6.0.18\lib\catalina-ha.jar;C:\apache-tomcat-6.0.18\lib\catalina-tribes.jar;C:\apache-tomcat-6.0.18\lib\catalina.jar;C:\apache-tomcat-6.0.18\lib\el-api.jar;C:\apache-tomcat-6.0.18\lib\jasper-el.jar;C:\apache-tomcat-6.0.18\lib\jasper-jdt.jar;C:\apache-tomcat-6.0.18\lib\jasper.jar;C:\apache-tomcat-6.0.18\lib\jsp-api.jar;C:\apache-tomcat-6.0.18\lib\servlet-api.jar;C:\apache-tomcat-6.0.18\lib\tomcat-coyote.jar;C:\apache-tomcat-6.0.18\lib\tomcat-dbcp.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-es.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-fr.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-ja.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\cobertura-2.0.3.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\easymock-3.2.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\jsp-api.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\junit-4.10.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\servlet-api.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\spring-test-3.2.9.RELEASE.jar;C:\cobertura-2.0.3\lib\asm-4.1.jar;C:\cobertura-2.0.3\lib\asm-analysis-4.1.jar;C:\cobertura-2.0.3\lib\asm-commons-4.1.jar;C:\cobertura-2.0.3\lib\asm-tree-4.1.jar;C:\cobertura-2.0.3\lib\asm-util-4.1.jar;C:\cobertura-2.0.3\lib\dom4j-1.6.1.jar;C:\cobertura-2.0.3\lib\icu4j-2.6.1.jar;C:\cobertura-2.0.3\lib\jaxen-1.1-beta-8.jar;C:\cobertura-2.0.3\lib\jdom-1.0.jar;C:\cobertura-2.0.3\lib\jetty-6.1.14.jar;C:\cobertura-2.0.3\lib\jetty-util-6.1.14.jar;C:\cobertura-2.0.3\lib\log4j-1.2.9.jar;C:\cobertura-2.0.3\lib\oro-2.0.8.jar;C:\cobertura-2.0.3\lib\servlet-api-2.5-6.1.14.jar;C:\cobertura-2.0.3\lib\tagsoup-0.9.7.jar;C:\cobertura-2.0.3\lib\xmlParserAPIs-2.6.2.jar;C:\cobertura-2.0.3\lib\xom-1.0b3.jar;C:\javawork\trunk\src\OnlineExamSystem;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-junit.jar" />
+
+          <property name="cobertura.html.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\html" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="build.doc.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\doc" />
+
+          <property name="env.LOGONSERVER" value="\\AD" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+
+          <property name="build.classes" value="C:\javawork\trunk\src\OnlineExamSystem\build\classes" />
+
+          <property name="sun.os.patch.level" value="Service Pack 3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145" />
+
+          <property name="env.PROCESSOR_REVISION" value="0401" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/./" />
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="conf.dir" value="C:\javawork\trunk\src\OnlineExamSystem\conf" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\javawork\trunk\src\OnlineExamSystem" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="build.test.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\test" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.PSC1" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-ant-1.9.2\bin;C:\Program Files\Java\jdk1.6.0_18\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\" />
+
+          <property name="ant.file.OnlineExamSystem" value="C:\javawork\trunk\src\OnlineExamSystem\build.xml" />
+
+          <property name="basedir" value="C:\javawork\trunk\src\OnlineExamSystem" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Freddie.Wang" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="env.VS100COMNTOOLS" value="c:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\" />
+
+          <property name="env.USERDOMAIN" value="YZ" />
+
+          <property name="env.CUBERTURA_HOME" value="C:\cobertura-2.0.3" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="src.dir" value="C:\javawork\trunk\src\OnlineExamSystem\src" />
+
+          <property name="env.PROCESSOR_LEVEL" value="15" />
+
+      </properties>
+
+      <testcase classname="com.augmentum.oes.controller.QuestionControllerTest" name="testDelete" time="3.954" />
+
+      <testcase classname="com.augmentum.oes.controller.QuestionControllerTest" name="testEdit" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.oes
+log4j:ERROR Could not instantiate appender named "oes".
+com.mchange.v2.cfg.DelayedLogItem [ level -> FINE, text -> "The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.", exception -> java.io.FileNotFoundException: Resource not found at path '/mchange-commons.properties'.]
+com.mchange.v2.cfg.DelayedLogItem [ level -> FINE, text -> "The configuration file for resource identifier 'hocon:/reference.conf,/application.conf,/application.json,/application.properties,/' could not be found. Skipping.", exception -> java.io.FileNotFoundException: No resource available at '/reference.conf,/application.conf,/application.json,/application.properties,/' for HOCON identifier 'hocon:/reference.conf,/application.conf,/application.json,/application.properties,/'. Also HOCON lib (typesafe-config) is not available.]
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="YT00401-100" id="1" name="QuestionServiceTest" package="com.augmentum.oes.service" tests="6" time="4.625" timestamp="2014-08-11T15:14:07">
+      <properties>
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="lib.dir" value="C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows XP" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="cobertura.home" value="C:\cobertura-2.0.3" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_18\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_18\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="YT00401-100" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\Documents and Settings\All Users" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145" />
+
+          <property name="java.runtime.version" value="1.6.0_18-b07" />
+
+          <property name="env.HOMEPATH" value="\Documents and Settings\freddie.wang" />
+
+          <property name="cobertura.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura" />
+
+          <property name="user.name" value="Freddie.Wang" />
+
+          <property name="build.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build" />
+
+          <property name="user.language" value="zh" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\bin" />
+
+          <property name="build.test.classes" value="C:\javawork\trunk\src\OnlineExamSystem\build\test\classes" />
+
+          <property name="build.test.report" value="C:\javawork\trunk\src\OnlineExamSystem\build\test\report" />
+
+          <property name="build.war.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\war" />
+
+          <property name="ant.project.name" value="OnlineExamSystem" />
+
+          <property name="java.version" value="1.6.0_18" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="x86 Family 15 Model 4 Stepping 1, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.CLIENTNAME" value="Console" />
+
+          <property name="env.TEMP" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="test.src.dir" value="C:\javawork\trunk\src\OnlineExamSystem\test" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="GBK" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="test.lib.dir" value="C:\javawork\trunk\src\OnlineExamSystem\lib" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="user.country" value="CN" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_18\jre" />
+
+          <property name="env.APPDATA" value="C:\Documents and Settings\freddie.wang\Application Data" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="env.CATALINA_HOME" value="C:\apache-tomcat-6.0.18" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\javawork\trunk\src\OnlineExamSystem\build.xml" />
+
+          <property name="os.version" value="5.1" />
+
+          <property name="cobertura.class.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\class" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="16.0-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Documents and Settings\freddie.wang" />
+
+          <property name="web.dir" value="C:\javawork\trunk\src\OnlineExamSystem\WebContent" />
+
+          <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_18" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/scripts/" />
+
+          <property name="user.home" value="C:\Documents and Settings\freddie.wang" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="env.CLASSPATH" value="." />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_18\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-ant-1.9.2\bin;C:\Program Files\Java\jdk1.6.0_18\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="1" />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="env.USERDNSDOMAIN" value="YZ.AUGMENTUM.COM.CN" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="cobertura.lib.dir" value="C:\cobertura-2.0.3\lib" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant version 1.7.1 compiled on June 27 2008" />
+
+          <property name="java.class.path" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\class;C:\javawork\trunk\src\OnlineExamSystem\build\classes;C:\javawork\trunk\src\OnlineExamSystem\build\test\classes;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\aopalliance-1.0.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\aspectjweaver-1.5.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\c3p0-0.9.2.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-codec-1.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-httpclient-3.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-lang-2.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\easymock-3.2.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-all-1.7.6.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-core-lgpl-1.8.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jackson-mapper-lgpl-1.8.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\jstl-1.2.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\log4j-1.2.15.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mchange-commons-java-0.2.6.1.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mybatis-3.2.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mybatis-spring-1.2.0.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mysql-connector-java-5.0.4-bin.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\mysql-connector-java-5.1.25.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\oval-1.81.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\servlet-api-2.4.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-aop-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-aspects-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-beans-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-build-src-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-context-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-context-support-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-core-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-expression-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-instrument-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-instrument-tomcat-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-jdbc-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-jms-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-orm-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-oxm-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-struts-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-test-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-tx-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-web-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-webmvc-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\spring-webmvc-portlet-3.2.9.RELEASE.jar;C:\javawork\trunk\src\OnlineExamSystem\WebContent\WEB-INF\lib\standard-1.0.jar;C:\apache-tomcat-6.0.18\lib\annotations-api.jar;C:\apache-tomcat-6.0.18\lib\catalina-ant.jar;C:\apache-tomcat-6.0.18\lib\catalina-ha.jar;C:\apache-tomcat-6.0.18\lib\catalina-tribes.jar;C:\apache-tomcat-6.0.18\lib\catalina.jar;C:\apache-tomcat-6.0.18\lib\el-api.jar;C:\apache-tomcat-6.0.18\lib\jasper-el.jar;C:\apache-tomcat-6.0.18\lib\jasper-jdt.jar;C:\apache-tomcat-6.0.18\lib\jasper.jar;C:\apache-tomcat-6.0.18\lib\jsp-api.jar;C:\apache-tomcat-6.0.18\lib\servlet-api.jar;C:\apache-tomcat-6.0.18\lib\tomcat-coyote.jar;C:\apache-tomcat-6.0.18\lib\tomcat-dbcp.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-es.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-fr.jar;C:\apache-tomcat-6.0.18\lib\tomcat-i18n-ja.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\cobertura-2.0.3.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\easymock-3.2.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\jsp-api.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\junit-4.10.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\servlet-api.jar;C:\javawork\trunk\src\OnlineExamSystem\lib\spring-test-3.2.9.RELEASE.jar;C:\cobertura-2.0.3\lib\asm-4.1.jar;C:\cobertura-2.0.3\lib\asm-analysis-4.1.jar;C:\cobertura-2.0.3\lib\asm-commons-4.1.jar;C:\cobertura-2.0.3\lib\asm-tree-4.1.jar;C:\cobertura-2.0.3\lib\asm-util-4.1.jar;C:\cobertura-2.0.3\lib\dom4j-1.6.1.jar;C:\cobertura-2.0.3\lib\icu4j-2.6.1.jar;C:\cobertura-2.0.3\lib\jaxen-1.1-beta-8.jar;C:\cobertura-2.0.3\lib\jdom-1.0.jar;C:\cobertura-2.0.3\lib\jetty-6.1.14.jar;C:\cobertura-2.0.3\lib\jetty-util-6.1.14.jar;C:\cobertura-2.0.3\lib\log4j-1.2.9.jar;C:\cobertura-2.0.3\lib\oro-2.0.8.jar;C:\cobertura-2.0.3\lib\servlet-api-2.5-6.1.14.jar;C:\cobertura-2.0.3\lib\tagsoup-0.9.7.jar;C:\cobertura-2.0.3\lib\xmlParserAPIs-2.6.2.jar;C:\cobertura-2.0.3\lib\xom-1.0b3.jar;C:\javawork\trunk\src\OnlineExamSystem;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant-junit.jar" />
+
+          <property name="cobertura.html.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\cobertura\html" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="build.doc.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\doc" />
+
+          <property name="env.LOGONSERVER" value="\\AD" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="x86" />
+
+          <property name="build.classes" value="C:\javawork\trunk\src\OnlineExamSystem\build\classes" />
+
+          <property name="sun.os.patch.level" value="Service Pack 3" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145" />
+
+          <property name="env.PROCESSOR_REVISION" value="0401" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.5.0.v20090527-1800/./" />
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\FREDDI~1.WAN\LOCALS~1\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="conf.dir" value="C:\javawork\trunk\src\OnlineExamSystem\conf" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_18\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\javawork\trunk\src\OnlineExamSystem" />
+
+          <property name="line.separator" value=" " />
+
+          <property name="build.test.dir" value="C:\javawork\trunk\src\OnlineExamSystem\build\test" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.PSC1" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Java\jdk1.6.0_18\bin;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\apache-ant-1.9.2\bin;C:\Program Files\Java\jdk1.6.0_18\bin;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\system32\WindowsPowerShell\v1.0;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\" />
+
+          <property name="ant.file.OnlineExamSystem" value="C:\javawork\trunk\src\OnlineExamSystem\build.xml" />
+
+          <property name="basedir" value="C:\javawork\trunk\src\OnlineExamSystem" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.7.1.v20090120-1145\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="Freddie.Wang" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="GBK" />
+
+          <property name="env.VS100COMNTOOLS" value="c:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\" />
+
+          <property name="env.USERDOMAIN" value="YZ" />
+
+          <property name="env.CUBERTURA_HOME" value="C:\cobertura-2.0.3" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="src.dir" value="C:\javawork\trunk\src\OnlineExamSystem\src" />
+
+          <property name="env.PROCESSOR_LEVEL" value="15" />
+
+      </properties>
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testVerificationException" time="4.453" />
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testCreateQuestion" time="0.031" />
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testUpdateQuestion" time="0.0" />
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testGetQuestionById" time="0.0" />
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testQueryQuestionByPage" time="0.0" />
+
+      <testcase classname="com.augmentum.oes.service.QuestionServiceTest" name="testDeleteQuestion" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[log4j:ERROR Could not find value for key log4j.appender.oes
+log4j:ERROR Could not instantiate appender named "oes".
+com.mchange.v2.cfg.DelayedLogItem [ level -> FINE, text -> "The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.", exception -> java.io.FileNotFoundException: Resource not found at path '/mchange-commons.properties'.]
+com.mchange.v2.cfg.DelayedLogItem [ level -> FINE, text -> "The configuration file for resource identifier 'hocon:/reference.conf,/application.conf,/application.json,/application.properties,/' could not be found. Skipping.", exception -> java.io.FileNotFoundException: No resource available at '/reference.conf,/application.conf,/application.json,/application.properties,/' for HOCON identifier 'hocon:/reference.conf,/application.conf,/application.json,/application.properties,/'. Also HOCON lib (typesafe-config) is not available.]
+com.augmentum.oes.exception.VerificationException
+	at com.augmentum.oes.service.BaseService.validateObject(BaseService.java:28)
+	at com.augmentum.oes.service.QuestionServiceTest.testVerificationException(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:768)
+]]></system-err>
+
+  </testsuite>
+</testsuites>

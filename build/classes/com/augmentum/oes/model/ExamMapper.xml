@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.augmentum.oes.model.Exam">
+    <resultMap id="examMap" type="Exam">
+        <id column="id" property="id" />
+        <result column="exam_name" property="examName" />
+        <result column="exam_description" property="examDescription" />
+        <result column="total_score" property="totalScore" />
+	    <result column="question_quantity" property="questionQuantity" />
+        <result column="exam_duration" property="examDuration" />
+        <result column="exam_state" property="examState" />
+    </resultMap>
+
+    <select id="query" resultMap="examMap" parameterType="java.util.Map">
+        SELECT
+            id, exam_name, exam_description, total_score, question_quantity, exam_duration, exam_state
+        FROM
+            exam
+        WHERE
+            exam_name LIKE #{queryCondition}
+        ORDER BY create_time DESC
+        limit #{begin}, #{pageSize}
+    </select>
+
+    <select id="count" resultType="int" parameterType="String">
+        SELECT COUNT(id)
+        FROM exam
+        WHERE exam_name LIKE #{queryCondition}
+    </select>
+    
+    <insert id="create" parameterType="Exam" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO 
+            exam(exam_name, exam_description, total_score, single_question_score,
+                question_quantity, exam_duration, user_id) 
+        VALUES
+            (#{examName}, #{examDescription}, #{totalScore}, #{singleQuestionScore}, 
+                #{questionQuantity}, #{examDuration}, #{userId})
+    </insert>
+</mapper>
