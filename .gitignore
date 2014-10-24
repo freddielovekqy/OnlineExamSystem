@@ -1,0 +1,11 @@
+# eclipse setting
+.settings/
+.classpath
+.project
+
+# Compiled
+build/classes/
+
+# web.xml
+WebContent/WEB-INF/web.xml
+/build
